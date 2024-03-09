@@ -1,0 +1,52 @@
+Oldal Szerkezetek
+Nyitó oldal/HomePage
+Általános feltételek/General conditions
+Találatok/Results
+Admin
+Felhasználó/User
+
+Webalkalmazás
+	Böngésző fülön alkalmazás név és Favicon
+	Nyitó oldal
+		Fejléc
+			Alkalmazás név és logó
+			Regsztrációs gomb
+				Előugró ablak
+					Beviteli mezők
+						Adatbázis szerin(később beírom)
+					Profil Kép Feltöltés
+					Általános feltételek kijelölő box
+						Link Feltételek Oldal
+					Regisztráció Mehet gomb
+					Mégsem gomb
+			Login gomb
+				Előugró ablak
+					Beviteli mezők (Felhasználó név && Jelszó)
+					Belépés Gomb
+						Link Admin || Hírdető oldal
+						|| Hiba üzenet
+					Mégsem gomb
+		Body Content
+			Kereső sáv
+				Legördülő listák (Adatbázis szerint)
+				Mit keresel beviteli mező
+				Szűrés/Listázás gomb
+					Link Találati lista oldal
+			Böngészés div
+				Hírdetések listázva
+					Kép megtekintés
+					Üzenet küldés gomb
+						Előugró ablak
+							Beviteli mezők (Email megadása && Üzenet szövege)
+							Küldés gomb
+							Mégsem gomb
+		Footer
+			Készítők neve Cprght és évszám
+			Közösségi média logok	
+				linkek
+			Kapcsolat, Segíthetünk, Email küldés, Támogatás
+				linkek
+
+			
+				
+					

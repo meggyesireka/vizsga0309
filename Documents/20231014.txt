@@ -1,0 +1,4 @@
+Elkészítve egy minta weblap belépés és regisztrációs felülete.
+PHP-val elkészítve egy lokális adatbázishoz kapcsolódás.
+Regisztráció tesztelve és működik.
+Belépés tesztelve, nem működik még, javítani kell!

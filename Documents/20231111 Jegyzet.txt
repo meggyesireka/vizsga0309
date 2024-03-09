@@ -1,0 +1,7 @@
+Dokumentációkat öszzegyűjtöttem és megformáltam átláthatóra.
+
+Pótolni!
+
+Alkalmazás tervezetben 
+	"Adatbázis szerint(később beírom)" Reg->Modal  
+	"Kereső sáv->-Legördülő listák (Adatbázis szerint)"

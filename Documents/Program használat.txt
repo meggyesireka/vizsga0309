@@ -1,0 +1,17 @@
+Visual Studio Code
+	Backend
+		PHP
+		JAVASCRIPT
+	Frontend
+		HTML
+		CSS
+		BOOTSTRAP
+	Teszt
+		Robotframework / SELENIUMLIBRARY
+PHPMyAdmin
+	Database
+		MySQL
+XAAMP
+	Service
+ 		APACHE 
+		MYSQL

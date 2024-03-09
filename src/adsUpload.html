@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapcsolat próba</title>
+    <!-- Bootstrap/CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/adsUploadStyle.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/source.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- headerbe megy modal-ként -->
+    <!-- <form action="connect.php"><button class="btn btn-primary">Kapcsolat próba</button></form> -->
+    <!-- <div class="container col-md-4">
+        <form name="UserData" action="" method="">
+            <label for="" class="m-auto">Teljes név</label>
+            <input type="text" placeholder="Teljes név" id="UserFullName" name="UserFullName" class="form-control mb-3" required="">
+            <label for="" class="m-auto">Felhasználó név</label>
+            <input type="text" placeholder="Felhasználó név" id="UserName" name="UserName" class="form-control mb-3" required="">
+            <label for="" class="m-auto">E-mail cím</label>
+            <input type="email" placeholder="Email cím" id="UserEmail" name="UserEmail" class="form-control mb-3" required="">
+            <label for="" class="m-auto">Telefon</label>
+            <input type="text" placeholder="Telefonszám" id="UserMobile" name="UserMobile" class="form-control mb-3" required="">
+            <label for="" class="m-auto">Jelenlegi jelszó</label>
+            <input type="password" placeholder="Jelszó megerősítése" id="CurrentPassword" name="CurrentPassword" class="form-control mb-3" required="">
+            <label for="" class="m-auto">Új jelszó</label>
+            <input type="password" placeholder="Jelszó megerősítése" id="NewPassword" name="NewPassword" class="form-control mb-3" required="">
+            <label for="" class="m-auto">Új jelszó megerősítése</label>
+            <input type="password" placeholder="Jelszó megerősítése" id="ConfirmNewPassword" name="ConfirmNewPassword" class="form-control mb-3" required="">
+
+
+            <Input type="checkbox" required=""></Input>
+            <A href="../src/general.html">Általános felhasználói feltételek elfogadása</A>
+            <br>
+            <input type="submit" class="btn btn-primary mt-3" name="SaveButton" value="Mentés">
+            <br><br>
+          </form> -->
+
+
+          <!-- Hirdetés feltöltés - ez nem modal, hanem egy oldal!! -->
+          <h1>Hirdetés felöltése</h1>
+
+          <div class="container col-md-8 border">
+            <form name="adsUpload" action="" method="">
+                <div class="">
+                    <label for="" class="m-auto">Üzlet neve</label>
+                    <input type="text" placeholder="Üzlet neve" id="UserFullName" name="UserFullName" class="form-control mb-3" required="">
+                </div>
+                <div class="">
+                    <label for="" class="m-auto">Cím</label>
+                    <input type="text" placeholder="Cím" id="UserName" name="UserName" class="form-control mb-3" required="">
+                </div>
+
+                <div class="">
+                    <label for="" class="m-auto">E-mail cím</label>
+                    <input type="email" placeholder="Email cím" id="UserEmail" name="UserEmail" class="form-control mb-3" required="">
+                </div>
+
+
+                <div class="">
+                    <label for="" class="m-auto">Telefon</label>
+                    <input type="text" placeholder="Telefonszám" id="UserMobile" name="UserMobile" class="form-control mb-3" required="">
+                </div>
+                
+
+                <div class="">
+                    <label for="" class="m-auto">Leírás</label>
+                    <input type="text" placeholder="Leírás" id="Description" name="Description" class="form-control mb-3" required="">
+                </div>
+                
+                
+                <div class="">
+                    <label for="" class="m-auto">Kép feltöltés</label><br>
+                    <form action="upload.php" method="post" enctype="multipart/form-data">
+                                        
+
+                    <input type="file" class=""  name="file" id="file" accept="image/*">
+                    <br>
+                    <input type="submit" class="" name="ImgUpload" value="Feltöltés">
+                </div> 
+
+                </form>
+
+
+    
+    
+
+                <input type="submit" class="btn btn-primary mt-3" name="SaveButton" value="Hirdetés feltöltése">
+                <input type="submit" class="btn btn-secondary mt-3" name="CancelButton" value="Mégse">
+                <br><br>
+              </form>
+
+
+
+
+
+
+          </div>
+
+          <div class="container border m-10">
+            <h1>Feltöltött hirdetéseim</h1>
+            <p>Itt lehetne az a lista, ahol csak egy sorban szerepelnek a feltöltött hirdetések a megtekintés, módosítás/törlés gombbal.</p>
+          </div>
+
+
+
+
+
+
+
+    </div>
+
+
+</body>
+</html>

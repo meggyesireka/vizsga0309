@@ -1,0 +1,105 @@
+            <div class="addForm">
+              <div class="mt-3">
+                  <input type="email" placeholder='Email cím "valami@valami.com"  '
+                  id="LogEmailInput" class="LogEmail form-control" required="">
+              </div>
+              <div class="mt-3">
+                <input type="password" placeholder="Jelszó"
+                id="LogPassInput" class="LogPass form-control" required="">
+            </div>
+modal footer
+                        <button type="button" class="btn btn-success" data-dismiss="modal">Mégsem</button>
+  
+            <button type="button" class="btn btn-primary"
+            id="signInButton"
+            data-bs-dismiss="modal">Bejelentkezés</button>
+
+                  <select class="form-select rounded mt-2 col-md-4" aria-label="Default select example">
+        <option selected>Hol keresel?</option>
+        <option value="1">Budapest I. kerület</option>
+        <option value="2">Budapest II. kerület</option>
+        <option value="3">Budapest III. kerület</option>
+      </select>
+
+                    <div class="modal fade" id="idEspresso" tabindex="-1" aria-labelledby="exampleModalLabel"aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Részletes leírás</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <img src="../img/content/ristretto.jpg" class="img-fluid" alt="">
+                          </div>
+                          <div class="col-sm-8">
+                            <h2>Espresso</h2>
+                            <p>A világon nagyon sokan, sokféle kávét készítenek és kávéházak hirdetik az itallapjukon, hogy „olasz eszpresszó” ennyi meg annyiba kerül. Ahány kávézóba térünk be, annyiféle italt fogunk kapni. Egy számunkra ismeretlen kávézóban
+    
+                              sosem tudhatjuk előre, hogy egy mennyei italt, vagy egy híg, eszpresszónak semmiképpen nem nevezhető löttyöt kapunk. Gondolom a kedves olvasó is járt már így, eléggé zavaró tud lenni és ez bizony zavarta az olasz embereket is. Minőségbiztosítási célzattal 1998-ban létrehozták a Espresso National Institute-ot, vagyis a Nemzeti Eszpresszó Intézet-et.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+
+                   <div class="col-md-4 col-12 offset-md-1">
+          <h2>Kapcsolat</h2>
+          <ul>
+            <li><img src="img/letter.svg" alt="" /> Az oldal neve</li>
+            <li><img src="img/email.svg" alt="" /> valami@gmail.com</li>
+            <li><img src="img/phone.svg" alt="" /> +36-33-158-5588</li>
+          </ul>
+        </div>
+
+        REG modal
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Bezár</button>
+  
+            <button type="button" class="btn btn-primary"
+            id="addButton"
+            data-bs-dismiss="modal">Mentés</button>
+  
+              <div class="addForm">
+              <div class="mt-3">
+                  <input type="text" placeholder="Teljes Név"
+                  id="RegUserFullName" class="form-control">
+              </div>
+              <div class="mt-3">
+                  <input type="text" placeholder="Felhasználó név"
+                  id="RegUserName" class="form-control">
+              </div>
+              <div class="mt-3">
+                  <input type="email" placeholder="Email cím"
+                  id="RegUserEmail" class="form-control">
+              </div>
+              <div class="mt-3">
+                <input type="text" placeholder="Telefonszám"
+                id="RegUserMobile" class="form-control">
+            </div>
+              <div class="mt-3">
+                <input type="password" placeholder="Jelszó"
+                id="RegUserPassword" class="form-control">
+            </div>
+              <div class="mt-3">
+                <input type="password" placeholder="Jelszó megerősítése"
+                id="RgUserRePassword" class="form-control">
+            </div>
+          </div>
+
+          ['UserAz'=>$RegUserAz,'UserName'=>$RegUserName,'UserPassword'=>$RegUserPassword,'UserEmail'=>$RegUserEmail,'UserMobile'=>$RegUserMobile,'UserFullName'=>$RegUserFullName,'Type'=>$RegUserTypeReg,'UserPhoto'=>$RegUserPhoto,'ResetCode'=>$RegResetCode]
+
+          [$RegUserAz,$RegUserName,$RegUserPassword,$RegUserEmail,$RegUserMobile,$RegUserFullName,$RegUserType,$RegUserPhoto,$RegResetCode]
+          "sssssssss", $_POST=>$RegUserAz, $_POST=>$RegUserName, $_POST=>$RegUserPassword,$_POST=>$RegUserEmail,$_POST=>$RegUserMobile, $_POST=>$RegUserFullName, $RegUserType, $RegUserPhoto, $RegResetCode
+          //$INSERT = "INSERT Into users (EMAIL , USERNAME , UPASS , UREPASS )values(?,?,?,?)";
+
+          !empty($RegUserFullName) || !empty($RegUserName) || !empty($RegUserEmail) || !empty($RegUserMobile) || !empty($RegUserPassword) || !empty($RegUserRePassword) && 
